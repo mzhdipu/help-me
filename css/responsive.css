@@ -1,0 +1,1465 @@
+
+
+
+@media (max-width: 319px) {
+        /*
+        all
+        */
+        p{
+            font-size: 13px;
+        }
+        h2{
+            font-size: 20px;
+            letter-spacing: normal;
+            margin-top: 0;
+        }
+
+
+
+
+        /*
+        all button*/
+        .btn-danger{
+            padding: 5px 10px;
+        }
+        .btn{
+            font-size: 10px;
+        }
+
+
+        /*
+        all section title
+        */
+        .section-title{
+            margin: 40px auto;
+        }
+        .section-title h2 {
+            font-size: 20px;
+        }
+        .section-title p i::after {
+            left: 100px;
+            top: 15px;
+        }
+
+        /*
+        all social
+        */
+        .social-button{
+            margin: 10px 0 0 0;
+        }
+        .social-button li {
+            padding: 0;
+        }
+        .social-button li a {
+            color: #000000;
+            font-size: 10px;
+            font-weight: 300;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.4s ease-in-out;
+            margin: 0 8px 14px -7px;
+            padding: 7px;
+            line-height: normal;
+        }
+
+
+        /*
+        nav
+        */
+        .custom-navbar .navbar-brand img {
+            margin: -10px 0 0 0;
+            width: 100px;
+        }
+        .custom-navbar {
+            border-bottom: 1px solid rgba(250,250,250,0.3);
+        /padding: 16px;
+            background: 0 0;
+        }
+
+        .custom-navbar.top-nav-collapse {
+        /padding: 16px;
+            background: #000000;
+            border-bottom: 0;
+        }
+
+
+
+
+
+        /*
+        blood
+        */
+        .blood-slider .carousel-inner{
+            height: 330px;
+        }
+        .blood-slider .carousel-inner .item{
+            width: 215px;
+            padding: 15px 0;
+            margin: 100px auto 0;
+        }
+        .blood-slider .carousel-inner .item p{
+            font-size: 13px;
+            letter-spacing: normal;
+        }
+        .blood-slider .carousel-inner .item h2 {
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 1.5em;
+            margin: 10px 0 15px 0;
+        }
+
+        /*
+        need to know
+        */
+        #need-to-know {
+        /margin: 0 0 25px 0;
+        }
+        #need-to-know .need-to-knowt-wrapper{
+            padding: 0 10px;
+        }
+        #need-to-know .need-to-knowt-wrapper h2 {
+            margin: 50px 0 35px 0;
+            font-size: 18px;
+        }
+
+        /*
+         donation process
+        */
+        #donation-process figure figcaption h3{
+            margin: 10px auto;
+        }
+        #donation-process figure figcaption h2 {
+            text-transform: uppercase;
+            font-size: 18px;
+            margin: 0 0 -5px 0;
+        }
+
+
+
+        /*
+        blood gropu
+        */
+        .panel-title > a {
+            letter-spacing: normal;
+        }
+        .panel-title {
+            color: white;
+            background: red;
+        }
+        .more-less {
+            color: white;
+        }
+
+
+        #blood-list .panel-group .panel-body figure img {
+            height: auto;
+            width: 100%;
+        }
+
+        .table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+            border-top: 0;
+            font-size: 13px;
+            text-align: center;
+            padding: 0;
+        }
+        .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+            border: 1px solid #ddd;
+            font-size: 10px;
+            padding: 0;
+            text-align: center;
+        }
+
+
+
+        /*
+        join with us
+        */
+        #join-with-us h2 {
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 20px;
+            letter-spacing: normal;
+            margin: 95px 0 25px;
+        }
+
+
+
+
+        /*
+        gallary section
+        */
+        .col-xs-6{
+            padding: 0;
+        }
+
+
+
+        /*
+        volunteer
+        */
+        #volunteer .volunteer figure img {
+            height: 190px;
+        }
+        #volunteer .volunteer figure figcaption {
+            margin: 0 0 0 0;
+        }
+        #volunteer .volunteer figure figcaption h2 {
+            font-size: 15px;
+            margin: 15px auto 0;
+        }
+        #volunteer .volunteer figure figcaption > p {
+            margin:5px 0 0 ;
+        }
+        #volunteer .volunteer figure figcaption p + p{
+            font-size: 10px;
+        }
+        #volunteer .volunteer figure figcaption p{
+            font-size: 10px;
+            margin: 10px 0 0 0;
+        }
+        #volunteer .volunteer figure figcaption p + p{
+            margin-top: 0;
+        }
+
+        #volunteer .volunteer figure figcaption .volunteer-contact p + p {
+            margin-left: -45px;
+        }
+
+
+
+        #volunteer .volunteer figure figcaption .social-button{
+            margin: 10px 0 0 15px;
+        }
+        #volunteer .volunteer figure figcaption .social-button li a .fa{
+            color:green;
+        }
+
+
+        /*
+        controler
+        */
+        #volunteer .nav-justified {
+            margin: 0 0 0 75px;
+        }
+        #volunteer .nav-justified li{
+            display: table-cell;
+        }
+        #volunteer .nav-justified li a img {
+            width: 40px;
+            border-radius: 100%;
+            margin: 0;
+        }
+        #volunteer .nav-justified li a {
+            margin: 0 0 0 -25px;
+        }
+
+
+
+
+        /*
+        headline section
+        */
+        #headline {
+            background-color: black;
+            color: #ffffff;
+            padding: 6px 0;
+            font-size: 10px;
+        }
+
+
+
+
+
+        /*
+        footer
+        */
+        footer{
+            margin: 0;
+        }
+        footer .footer-top p i {
+            font-size: 25px;
+            margin: 0 0 5px 0;
+        }
+        footer .footer-top .col-xs-4{
+            padding: 0 2px;
+        }
+        footer .footer-top p {
+            margin: 0 0 15px 0;
+            color: #ffffff;
+            font-size: 11px;
+        }
+
+        footer .footer-bottom p {
+            color: #ffffff;
+            font-size: 8px;
+        }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    /*
+    all
+    */
+    p{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 20px;
+        letter-spacing: normal;
+        margin-top: 0;
+    }
+
+
+
+
+    /*
+    all button*/
+    .btn-danger{
+        padding: 5px 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+
+
+    /*
+    all section title
+    */
+    .section-title{
+        margin: 40px auto;
+    }
+    .section-title h2 {
+        font-size: 20px;
+    }
+    .section-title p i::after {
+        left: 100px;
+        top: 15px;
+    }
+
+    /*
+    all social
+    */
+    .social-button{
+        margin: 10px 0 0 0;
+    }
+    .social-button li {
+        padding: 0;
+    }
+    .social-button li a {
+        color: #000000;
+        font-size: 10px;
+        font-weight: 300;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        margin: 0 8px 14px -7px;
+        padding: 7px;
+        line-height: normal;
+    }
+
+
+    /*
+    nav
+    */
+    .custom-navbar .navbar-brand img {
+        margin: -10px 0 0 0;
+        width: 100px;
+    }
+    .custom-navbar {
+        border-bottom: 1px solid rgba(250,250,250,0.3);
+    /padding: 16px;
+        background: 0 0;
+    }
+
+    .custom-navbar.top-nav-collapse {
+    /padding: 16px;
+        background: #000000;
+        border-bottom: 0;
+    }
+
+
+
+
+
+    /*
+    blood
+    */
+    .blood-slider .carousel-inner{
+        height: 330px;
+    }
+    .blood-slider .carousel-inner .item{
+        width: 250px;
+        padding: 15px 0;
+        margin: 100px auto 0;
+    }
+    .blood-slider .carousel-inner .item p{
+        font-size: 13px;
+        letter-spacing: normal;
+    }
+    .blood-slider .carousel-inner .item h2 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.5em;
+        margin: 10px 0 15px 0;
+    }
+
+    /*
+    need to know
+    */
+    #need-to-know {
+        /margin: 0 0 25px 0;
+    }
+    #need-to-know .need-to-knowt-wrapper{
+        padding: 0 10px;
+    }
+    #need-to-know .need-to-knowt-wrapper h2 {
+        margin: 50px 0 35px 0;
+        font-size: 18px;
+    }
+
+    /*
+     donation process
+    */
+    #donation-process figure figcaption h3{
+        margin: 10px auto;
+    }
+    #donation-process figure figcaption h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 0 0 -5px 0;
+    }
+
+
+
+    /*
+    blood gropu
+    */
+    .panel-title > a {
+        letter-spacing: normal;
+    }
+    .panel-title {
+        color: white;
+        background: red;
+    }
+    .more-less {
+        color: white;
+    }
+
+
+    #blood-list .panel-group .panel-body figure img {
+        height: auto;
+        width: 100%;
+    }
+
+    .table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+        border-top: 0;
+        font-size: 13px;
+        text-align: center;
+        padding: 0;
+    }
+    .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+        border: 1px solid #ddd;
+        font-size: 10px;
+        padding: 0;
+        text-align: center;
+    }
+
+
+
+    /*
+    join with us
+    */
+    #join-with-us h2 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: normal;
+        margin: 95px 0 25px;
+    }
+
+
+
+
+    /*
+    gallary section
+    */
+    .col-xs-6{
+        padding: 0;
+    }
+
+
+
+    /*
+    volunteer
+    */
+    #volunteer .volunteer figure img {
+        height: 190px;
+    }
+    #volunteer .volunteer figure figcaption {
+        margin: 0 0 0 0;
+    }
+    #volunteer .volunteer figure figcaption h2 {
+        font-size: 15px;
+        margin: 15px auto 0;
+    }
+    #volunteer .volunteer figure figcaption > p {
+        margin:5px 0 0 ;
+    }
+    #volunteer .volunteer figure figcaption p + p{
+        font-size: 10px;
+    }
+    #volunteer .volunteer figure figcaption p{
+        font-size: 10px;
+        margin: 10px 0 0 0;
+    }
+    #volunteer .volunteer figure figcaption p + p{
+        margin-top: 0;
+    }
+
+    #volunteer .volunteer figure figcaption .volunteer-contact p + p {
+        margin-left: -45px;
+    }
+
+
+
+    #volunteer .volunteer figure figcaption .social-button{
+        margin: 10px 0 0 15px;
+    }
+    #volunteer .volunteer figure figcaption .social-button li a .fa{
+        color:green;
+    }
+
+
+    /*
+    controler
+    */
+    #volunteer .nav-justified {
+        margin: 0 0 0 75px;
+    }
+    #volunteer .nav-justified li{
+        display: table-cell;
+    }
+    #volunteer .nav-justified li a img {
+        width: 40px;
+        border-radius: 100%;
+        margin: 0;
+    }
+    #volunteer .nav-justified li a {
+        margin: 0 0 0 -25px;
+    }
+
+
+
+
+    /*
+    headline section
+    */
+    #headline {
+        background-color: black;
+        color: #ffffff;
+        padding: 6px 0;
+        font-size: 10px;
+    }
+
+
+
+
+
+    /*
+    footer
+    */
+    footer{
+        margin: 0;
+    }
+    footer .footer-top p i {
+        font-size: 25px;
+        margin: 0 0 5px 0;
+    }
+    footer .footer-top .col-xs-4{
+        padding: 0 2px;
+    }
+    footer .footer-top p {
+        margin: 0 0 15px 0;
+        color: #ffffff;
+        font-size: 11px;
+    }
+
+    footer .footer-bottom p {
+        color: #ffffff;
+        font-size: 8px;
+    }
+}
+
+
+@media (min-width: 360px) and (max-width: 660px){
+    .section-title p i::after {
+        left: 120px;
+    }
+    #volunteer .nav-justified {
+        margin: 0 0 0 95px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+    /*
+    all
+    */
+    p{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 20px;
+        letter-spacing: normal;
+        margin-top: 0;
+    }
+
+
+
+
+    /*
+    all button*/
+    .btn-danger{
+        padding: 5px 10px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+
+
+    /*
+    all section title
+    */
+    .section-title{
+        margin: 40px auto;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title p i::after {
+        left: 180px;
+        top: 25px;
+    }
+
+    /*
+    all social
+    */
+    .social-button{
+        margin: 10px 0 0 0;
+    }
+    .social-button li {
+        padding: 0;
+    }
+    .social-button li a {
+        color: #000000;
+        font-size: 10px;
+        font-weight: 300;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        margin: 0 8px 14px -7px;
+        padding: 7px;
+        line-height: normal;
+    }
+
+
+    /*
+    nav
+    */
+    .custom-navbar .navbar-brand img {
+        margin: -10px 0 0 0;
+        width: 100px;
+    }
+    .custom-navbar {
+        border-bottom: 1px solid rgba(250,250,250,0.3);
+    /padding: 16px;
+        background: 0 0;
+    }
+
+    .custom-navbar.top-nav-collapse {
+    /padding: 16px;
+        background: #000000;
+        border-bottom: 0;
+    }
+    /*
+   blood
+   */
+    .blood-slider .carousel-inner{
+        height: 330px;
+    }
+    .blood-slider .carousel-inner .item{
+        width: 300px;
+        padding: 15px 0;
+        margin: 100px auto 0;
+    }
+    .blood-slider .carousel-inner .item p{
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+    .blood-slider .carousel-inner .item h2 {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.5em;
+        margin: 10px 0 15px 0;
+    }
+
+    /*
+    need to know
+    */
+    #need-to-know {
+    /margin: 0 0 25px 0;
+    }
+    #need-to-know .need-to-knowt-wrapper{
+        padding: 0 16px;
+    }
+    #need-to-know .need-to-knowt-wrapper h2 {
+        margin: 50px 0 35px 0;
+        font-size: 20px;
+    }
+
+    /*
+     donation process
+    */
+    #donation-process figure figcaption {
+        margin: 20px 0 0 0;
+    }
+    #donation-process figure figcaption h3{
+        margin: 10px auto;
+    }
+    #donation-process figure figcaption h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 0 0 -5px 0;
+    }
+
+
+
+    /*
+    blood gropu
+    */
+    .panel-title > a {
+        letter-spacing: normal;
+    }
+    .panel-title {
+        color: white;
+        background: red;
+    }
+    .more-less {
+        color: white;
+    }
+
+
+    #blood-list .panel-group .panel-body figure img {
+        height: auto;
+        width: 100%;
+    }
+
+    .table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+        border-top: 0;
+        font-size: 13px;
+        text-align: center;
+        padding: 0;
+    }
+    .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+        border: 1px solid #ddd;
+        font-size: 10px;
+        padding: 0;
+        text-align: center;
+    }
+
+
+
+    /*
+    join with us
+    */
+    #join-with-us h2 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: normal;
+        margin: 95px 0 25px;
+    }
+
+
+
+
+    /*
+    gallary section
+    */
+    .col-xs-6{
+        padding: 0;
+    }
+
+
+
+    /*
+    volunteer
+    */
+    #volunteer .volunteer figure img {
+        height: 190px;
+    }
+    #volunteer .volunteer figure figcaption {
+        margin: 0 0 0 0;
+    }
+    #volunteer .volunteer figure figcaption h2 {
+        font-size: 15px;
+        margin: 15px auto 0;
+    }
+    #volunteer .volunteer figure figcaption > p {
+        margin:5px 0 0 ;
+    }
+    #volunteer .volunteer figure figcaption p + p{
+        font-size: 10px;
+    }
+    #volunteer .volunteer figure figcaption p{
+        font-size: 10px;
+        margin: 10px 0 0 0;
+    }
+    #volunteer .volunteer figure figcaption p + p{
+        margin-top: 0;
+    }
+
+    #volunteer .volunteer figure figcaption .volunteer-contact p + p {
+        margin-left: -45px;
+    }
+
+
+
+    #volunteer .volunteer figure figcaption .social-button{
+        margin: 10px 0 0 15px;
+    }
+    #volunteer .volunteer figure figcaption .social-button li a .fa{
+        color:green;
+    }
+
+
+    /*
+    controler
+    */
+    #volunteer .nav-justified {
+        margin: 0 0 0 160px;
+    }
+    #volunteer .nav-justified li{
+        display: table-cell;
+    }
+    #volunteer .nav-justified li a img {
+        width: 40px;
+        border-radius: 100%;
+        margin: 0;
+    }
+    #volunteer .nav-justified li a {
+        margin: 0 0 0 -25px;
+    }
+
+
+
+
+    /*
+    headline section
+    */
+    #headline {
+        background-color: black;
+        color: #ffffff;
+        padding: 6px 0;
+        font-size: 10px;
+    }
+
+
+
+
+
+    /*
+    footer
+    */
+    footer{
+        margin: 0;
+    }
+    footer .footer-top p i {
+        font-size: 25px;
+        margin: 0 0 5px 0;
+    }
+    footer .footer-top .col-xs-4{
+        padding: 0 2px;
+    }
+    footer .footer-top p {
+        margin: 0 0 15px 0;
+        color: #ffffff;
+        font-size: 11px;
+    }
+
+    footer .footer-bottom p {
+        color: #ffffff;
+        font-size: 8px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*
+   all
+   */
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 20px;
+        letter-spacing: normal;
+        margin-top: 0;
+    }
+
+
+
+
+    /*
+    all button*/
+    .btn-danger{
+        padding: 5px 10px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+
+
+    /*
+    all section title
+    */
+    .section-title{
+        margin: 40px auto;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .section-title p i::after {
+        left: 305px;
+        top: 25px;
+    }
+
+    /*
+    all social
+    */
+    .social-button{
+        margin: 10px 0 0 0;
+    }
+    .social-button li {
+        padding: 0;
+    }
+    .social-button li a {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 300;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        margin: 0 8px 14px -7px;
+        padding: 11px;
+        line-height: normal;
+    }
+
+
+    /*
+    nav
+    */
+    .custom-navbar .navbar-brand img {
+        margin: -20px 0 0 0;
+        width: 140px;
+    }
+    .custom-navbar {
+        border-bottom: 1px solid rgba(250,250,250,0.3);
+        padding: 16px;
+        background: 0 0;
+    }
+
+    .custom-navbar.top-nav-collapse {
+    /padding: 16px;
+        background: #000000;
+        border-bottom: 0;
+    }
+    .custom-navbar .nav li a {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+    /*
+   blood
+   */
+    .blood-slider .carousel-inner {
+        height: 455px;
+    }
+    .blood-slider .carousel-inner .item {
+        width: 525px;
+        padding: 25px 0;
+        margin: 155px auto 0;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        margin-top: 33px;
+    }
+    .blood-slider .carousel-inner .item p{
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+    .blood-slider .carousel-inner .item h2 {
+        font-size: 30px;
+    }
+
+    /*
+    need to know
+    */
+    #need-to-know {
+    /margin: 0 0 25px 0;
+    }
+    #need-to-know .need-to-knowt-wrapper{
+        padding: 0 16px;
+    }
+    #need-to-know .need-to-knowt-wrapper h2 {
+        margin: 50px 0 35px 0;
+        font-size: 20px;
+    }
+
+    /*
+     donation process
+    */
+    #donation-process figure figcaption {
+        margin: 20px 0 0 0;
+    }
+    #donation-process figure figcaption h3{
+        margin: 10px auto;
+    }
+    #donation-process figure figcaption h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 0 0 -5px 0;
+    }
+
+
+
+    /*
+    blood gropu
+    */
+    .panel-title > a {
+        letter-spacing: normal;
+    }
+    .panel-title {
+        color: white;
+        background: red;
+    }
+    .more-less {
+        color: white;
+    }
+
+
+    #blood-list .panel-group .panel-body figure img {
+        height: auto;
+        width: 100%;
+    }
+
+    .table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+        border-top: 0;
+        font-size: 15px;
+        text-align: center;
+        padding: 0;
+    }
+    .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+        border: 1px solid #ddd;
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+
+
+    /*
+    join with us
+    */
+    #join-with-us h2 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: normal;
+        margin: 95px 0 25px;
+    }
+
+
+
+
+    /*
+    gallary section
+    */
+    .col-xs-6{
+        padding: 0;
+    }
+
+
+
+    /*
+    volunteer
+    */
+    #volunteer .volunteer figure figcaption {
+        margin: 0 0 0 0;
+    }
+    #volunteer .volunteer figure figcaption h2 {
+        font-size: 25px;
+        margin: 15px auto 0;
+    }
+    #volunteer .volunteer figure figcaption > p {
+        margin:5px 0 0 ;
+    }
+    #volunteer .volunteer figure figcaption p + p{
+        font-size: 15px;
+    }
+    #volunteer .volunteer figure figcaption p + p{
+        margin-top: 0;
+    }
+    #volunteer .volunteer figure figcaption p {
+        font-size: 18px;
+        margin: 17px 0 25px 0;
+    }
+    #volunteer .volunteer figure figcaption .volunteer-contact p + p {
+        margin-left: -85px;
+        margin-top: -11px;
+    }
+
+
+
+
+
+    #volunteer .volunteer figure figcaption .social-button{
+        margin: 10px 0 0 15px;
+    }
+    #volunteer .volunteer figure figcaption .social-button li a .fa{
+        color:green;
+    }
+
+
+    /*
+    controler
+    */
+    #volunteer .nav-justified {
+        margin: 0 0 0 210px;
+    }
+    #volunteer .nav-justified li{
+        display: table-cell;
+    }
+    #volunteer .nav-justified li a img {
+        width: 50px;
+        border-radius: 100%;
+        margin: 0;
+    }
+
+
+
+
+
+    /*
+    headline section
+    */
+    #headline {
+        background-color: black;
+        color: #ffffff;
+        padding: 6px 0;
+        font-size: 13px;
+    }
+
+
+
+
+
+    /*
+    footer
+    */
+    footer{
+        margin: 0;
+    }
+    footer .footer-top p i {
+        font-size: 25px;
+        margin: 0 0 5px 0;
+    }
+    footer .footer-top .col-xs-4{
+        padding: 0 2px;
+    }
+    footer .footer-top p {
+        margin: 0 0 15px 0;
+        color: #ffffff;
+        font-size: 11px;
+    }
+
+    footer .footer-bottom p {
+        color: #ffffff;
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px){
+    /*
+    all
+    */
+    p{
+        font-size: 15px;
+    }
+    /*
+    section title
+    */
+    .section-title p i::after {
+        left: 420px;
+    }
+
+    /*
+    nav
+    */
+    .custom-navbar .navbar-brand img {
+        margin: -20px 0 0 0;
+        width: 140px;
+    }
+    .custom-navbar {
+        border-bottom: 1px solid rgba(250,250,250,0.3);
+        padding: 16px;
+        background: 0 0;
+    }
+
+    .custom-navbar.top-nav-collapse {
+    /padding: 16px;
+        background: #000000;
+        border-bottom: 0;
+    }
+    .custom-navbar .nav li a {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+
+    /*
+    blood slider
+    */
+    .blood-slider .carousel-inner .item {
+        max-width: 675px;
+        margin: 275px auto 0;
+    }
+    .blood-slider .carousel-inner .item p {
+        font-size: 28px;
+        letter-spacing: 5px;
+    }
+    .blood-slider .carousel-inner .item h2 {
+        font-size: 44px;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        margin-top: 30px;
+    }
+
+    /*
+    donate process
+    */
+    #donation-process figure figcaption h2 {
+        font-size: 25px;
+    }
+
+    /*
+       blood gropu
+       */
+    .panel-title > a {
+        letter-spacing: normal;
+    }
+    .panel-title {
+        color: white;
+        background: red;
+    }
+    .more-less {
+        color: white;
+    }
+
+
+    #blood-list .panel-group .panel-body figure img {
+        height: auto;
+        width: 100%;
+    }
+
+
+    /*
+    join with us
+    */
+    #join-with-us h2 {
+        margin: 95px 0 45px;
+    }
+
+    /*
+    volunteen
+    */
+    #volunteer .volunteer figure figcaption {
+        margin: 60px 0 0 0;
+    }
+    #volunteer .nav-justified {
+        margin: 0 0 0 290px;
+    }
+
+    /*
+    headline
+    */
+    #headline {
+        padding: 5px 0 4px;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1223px){
+    /*
+    section title
+    */
+    .section-title p i::after {
+        left: 422px;
+    }
+
+    /*
+
+    /*
+       nav
+       */
+    .custom-navbar .navbar-brand img {
+        margin: -20px 0 0 0;
+        width: 140px;
+    }
+    .custom-navbar {
+        border-bottom: 1px solid rgba(250,250,250,0.3);
+        padding: 16px;
+        background: 0 0;
+    }
+
+    .custom-navbar.top-nav-collapse {
+    /padding: 16px;
+        background: #000000;
+        border-bottom: 0;
+    }
+    .custom-navbar .nav li a {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+
+    /*
+    blood slider
+    */
+    .blood-slider .carousel-inner .item {
+        margin: 250px auto 0;
+    }
+
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        margin-top: 35px;
+    }
+
+    /*
+      blood gropu
+      */
+    .panel-title > a {
+        letter-spacing: normal;
+    }
+    .panel-title {
+        color: white;
+        background: red;
+    }
+    .more-less {
+        color: white;
+    }
+
+
+    #blood-list .panel-group .panel-body figure img {
+        height: auto;
+        width: 100%;
+    }
+
+
+    /*
+    join with us
+    */
+    #join-with-us h2 {
+        margin: 90px 0 45px;
+    }
+
+
+    /*
+    volunteen
+    */
+    #volunteer .nav-justified {
+        margin: 0 0 0 280px;
+    }
+
+    /*
+    headline
+    */
+    #headline {
+        padding: 5px 0 3px;
+    }
+}
+
+
+@media only screen and (min-width: 1224px){
+    /*
+     nav
+     */
+    .custom-navbar .navbar-brand img {
+        margin: -20px 0 0 0;
+        width: 140px;
+    }
+    .custom-navbar {
+        border-bottom: 1px solid rgba(250,250,250,0.3);
+        padding: 16px;
+        background: 0 0;
+    }
+
+    .custom-navbar.top-nav-collapse {
+    /padding: 16px;
+        background: #000000;
+        border-bottom: 0;
+    }
+    .custom-navbar .nav li a {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+
+
+    /*
+      blood gropu
+      */
+    .panel-title > a {
+        letter-spacing: normal;
+    }
+    .panel-title {
+        color: white;
+        background: red;
+    }
+    .more-less {
+        color: white;
+    }
+
+
+    #blood-list .panel-group .panel-body figure img {
+        height: auto;
+        width: 100%;
+    }
+
+    /*
+    join with us
+    */
+    #join-with-us h2 {
+        margin: 90px 0 45px;
+    }
+
+    /*
+    headline
+    */
+    #headline {
+        padding: 5px 0 3px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/***
+=========================================================================
+              all section tittle
+=========================================================================
+***/
+.section-title{
+    margin: 90px 0 75px 0;
+    position: relative;
+}
+.section-title h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.section-title p i{
+    color:#FF0000;
+}
+.section-title p i::after{
+    content: "______";
+    top: 30px;
+    left: 520px;
+    position: absolute;
+    font-weight: bold;
+}
+
+
+
+/****
+================================================================
+                    button for all
+================================================================
+****/
+.btn-danger{
+    margin: 0 0 0 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    outline: none;
+    background-color: #FF0000;
+
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+}
+.btn-danger:hover{
+    background-color:#ffffff;
+    color:#000000;
+}
+
+
+/***
+=========================================================================
+             social Button
+=========================================================================
+***/
+.social-button li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+}
+
+.social-button li a {
+    color: #000000;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    font-weight: 300;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    margin: 0 8px 14px 8px;
+}
+
+.social-button li a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================== */
+        Nav Section
+/* ========================================== */
+.custom-navbar {
+    background: #000000;
+    border: none;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.custom-navbar .navbar-brand  {
+    /*border: 4px solid #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 11px;*/
+}
+.custom-navbar .navbar-brand img{
+    margin: -30px 0 0 0;
+}
+
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #FF0000;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.custom-navbar .nav li {
+
+}
+
+.custom-navbar .nav li a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    /letter-spacing: 2px;
+}
+
+.custom-navbar .nav li a:hover {
+    background: transparent;
+    color: red;
+}
+.custom-navbar .nav > li > a:focus {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+}
+
+.custom-navbar .nav li.active > a {
+    border-bottom: 2px solid #ffffff;
+}
+
+.custom-navbar .navbar-toggle {
+    border: none;
+}
+.custom-navbar .navbar-toggle .icon-bar {
+    background: red;
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+=========================================================================
+              Blood Slider Section
+=========================================================================
+***/
+.blood-slider{}
+.blood-slider .carousel-inner{
+    background-image: url(../images/slider/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+.blood-slider .carousel-inner .item{
+    margin: 210px auto 0;
+    background: rgba(255, 255, 255, 0.88);
+    max-width: 800px;
+    padding: 30px;
+    text-transform: uppercase;
+    border: 1px solid red;
+}
+.blood-slider .carousel-inner .item p{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.blood-slider .carousel-inner .item h2{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.5em;
+    margin: 10px 0 25px 0;
+}
+.blood-slider .carousel-inner .item a{}
+.blood-slider .carousel-inner .animated{
+    animation-delay: 1s;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+ .carousel-control.left {
+    background-image: none;
+}
+
+
+
+/***
+=========================================================================
+             Need to Know SEction
+=========================================================================
+***/
+#need-to-know{}
+#need-to-know .need-to-knowt-wrapper h2{
+    text-transform: uppercase;
+    margin: 0 0 35px 0;
+    font-size: 25px;
+    text-align: center;
+}
+#need-to-know .need-to-knowt-wrapper ul{}
+#need-to-know .need-to-knowt-wrapper ul li{
+    margin: 0 0 15px 0;
+    list-style: decimal;
+}
+.about-us,.some-misconception{
+    margin: 40px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+=========================================================================
+              donation process
+=========================================================================
+***/
+#donation-process{}
+#donation-process figure{
+    background:#F8F9FA;
+    padding: 0 5px 15px;
+}
+#donation-process figure img{}
+#donation-process figure img:hover{
+    transform: scale(1.1) rotate(0.5deg);
+    width: 100%;
+}
+#donation-process figure figcaption{
+    text-align: center;
+}
+#donation-process figure figcaption h3{
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    border-radius: 50%;
+}
+#donation-process figure figcaption h2{
+    text-transform: uppercase;
+}
+#donation-process figure figcaption p{
+    line-height: 1.6em;
+    margin: 15px 0 15px;
+    text-align: justify;
+}
+
+
+
+
+/***
+=========================================================================
+                    blood group list
+=========================================================================
+***/
+#blood-list{
+    margin: 0 0 0 0;
+}
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+#blood-list .panel-group .panel-body figure img{
+    height: 300px;
+    width: 100%;
+}
+
+#blood-list .panel-group .panel-body .btn-danger{
+    margin: 20px 0;
+}
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+    padding: 0;
+}
+
+
+
+/***
+=========================================================================
+            join With us
+=========================================================================
+***/
+#join-with-us{
+    background-image: url("../images/joinWithUs/img1.jpg");
+    background-size: 100% auto;
+    /background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding:0 0 70px;
+    position: relative;
+}
+
+#join-with-us h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin: 45px 0;
+}
+
+
+/***
+=========================================================================
+            Photo Gallary
+=========================================================================
+***/
+#photo-gallary{}
+#photo-gallary .photo-gallary-img{}
+#photo-gallary .photo-gallary-img figure{}
+#photo-gallary .photo-gallary-img figure img{
+   cursor: crosshair;;
+}
+#photo-gallary .photo-gallary-img figure img:hover{
+    background: red;
+}
+
+
+/****
+================================================================
+                   our volunteers  SECTION
+================================================================
+****/
+#volunteer{}
+#volunteer .volunteer{}
+#volunteer .volunteer figure{}
+#volunteer .volunteer figure img{}
+#volunteer .volunteer figure figcaption{
+    margin: 85px 0 0 0;
+}
+#volunteer .volunteer figure figcaption h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#volunteer .volunteer figure figcaption > p{
+    line-height: 1.7em;
+    margin: 30px 0 35px 0;
+}
+#volunteer .volunteer figure figcaption .volunteer-contact {}
+#volunteer .volunteer figure figcaption .volunteer-contact p + p{
+    margin-left: -50px;
+}
+
+
+#volunteer .volunteer figure figcaption p i{
+    color:red;
+}
+
+
+
+
+/*
+    volunteer Slider
+*/
+
+#volunteer .nav-justified{
+    margin: 0 0 0 370px;
+    width:0;
+}
+#volunteer .nav-justified li{
+    width: 0;
+}
+#volunteer .nav-justified li a{
+    background-color: transparent;
+}
+#volunteer .nav-justified li a img{
+    width: 80px;
+    border-radius: 100%;
+    margin: 10px 0 0 0;
+}
+
+
+
+
+/****
+================================================================
+                   Headline section
+================================================================
+****/
+#headline {
+    background-color: black;
+    color:#ffffff;
+    padding: 5px 0 0;
+}
+
+
+
+/****
+================================================================
+                   footer section
+================================================================
+****/
+footer{
+    background: #FF0000;
+    padding: 40px 0 0;
+    /margin: 100px 0 0;
+}
+footer .footer-top{}
+footer .footer-top p{
+    margin: 0 0 50px 0;
+    color:#ffffff;
+}
+footer .footer-top p i{
+    font-size: 60px;
+    margin: 0 0 5px 0;
+}
+footer .footer-top p i .fa{}
+
+
+footer .social-button{
+    margin: 10px 0 0 0;
+}
+
+footer .footer-bottom{
+    background: black;
+    padding: 15px 0 3px;
+    border-top: 1px solid rgba(168, 168, 168, 0.88);
+}
+footer .footer-bottom p{
+    color:#ffffff;
+}
+footer .footer-bottom p a{
+    color:greenyellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer .infinite{
+    animation-duration: 3s;
+}
+
+
+
+
+
+/img:hover{
+    transform: scale(1.1) rotate(0.5deg);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****
+===========================================================
+            for Scroll Up
+===========================================================
+***/
+@keyframes hvr-ripple-out {
+    100% {
+        top: -12px;
+        right: -12px;
+        bottom: -12px;
+        left: -12px;
+        opacity: 0;
+    }
+}
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 38px;
+    right: 20px;
+    z-index: 99;
+    text-align: center;
+    color: #fff;
+    background: #FF0000;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.scrollup::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #FF0000;
+    border-radius: 50%;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    -webkit-animation: hvr-ripple-out 1.2s ease-in-out infinite;
+    animation: hvr-ripple-out 1.2s ease-in-out infinite;
+}
+.scrollup::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+}
+.scrollup i {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    color: #ffffff;
+}
+
+
+
+
